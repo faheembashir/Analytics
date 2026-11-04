@@ -1,7 +1,15 @@
+num=int(input("Enter a number: "))
+if num<=1:
+    print(num,"is not prime")
+else:
+    for i in range(2,num):
+        if num % i==0:
+          print(num, "is not prime")
+          break;
+    else:
+        print(num, "is prime")    
 
-
-
-
-a = int("-6")
-b = int("-6")
-print(a is b)
+for i in range(2,2):
+    print(i)
+else:
+    print("hell")
